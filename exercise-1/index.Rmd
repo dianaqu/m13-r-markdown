@@ -45,3 +45,12 @@ GetReview <- function(movie) {
 # Create a variable called `movie.info` by passing your movie to your GetReview function
 movie.info <- GetReview('Almost Famous')
 ```
+# `r movie`
+
+## `r movie.info$headline`
+
+Below is the summary about `r movie` from the New York Times API:
+
+>`r movie.info$summary`
+
+Follow [this link](`r movie.info$link`) to read the full review.
